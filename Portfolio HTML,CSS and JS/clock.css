@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3498db;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 1s ease-in-out;
+  }
+
+  #clock {
+    font-size: 3em;
+    border: 3px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
